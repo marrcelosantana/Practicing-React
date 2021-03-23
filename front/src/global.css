@@ -6,3 +6,79 @@
     box-sizing: border-box;
     font-family: rajdhani;
 }
+
+
+.circleleft :hover{
+    color:#f74247;
+}
+
+.inputs{
+    width: 35%;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    border: 0;
+    margin-bottom: 50px;
+    
+}
+
+.sinais{
+    font-size: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.button-operation{
+    width: 50%;
+    height: 40px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #1877f2;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.button-operation:hover{
+    background-color: #f74247;
+}
+
+.choose-button{
+    width: 40%;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #1877f2;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.choose-button:hover{
+    background-color: #f74247;
+}
+
+.voltar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;    
+    
+}
+
+#res{
+    font-size: 30px;
+}

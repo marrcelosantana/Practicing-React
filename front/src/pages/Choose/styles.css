@@ -1,0 +1,41 @@
+.choose-container{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-size: cover;
+    font-family: rajdhani;
+    background-image: url('../../assets/bgprincipal.jpg');
+}
+
+.choose-box{
+    padding: 40px;
+    width: 580px;
+    height: 650px;
+    text-align: center;
+    border-top: 10px solid darkblue;
+    border-bottom: 10px solid rgb(247,71,90);
+    border-radius: 10px;
+    background-color: white;
+}
+.choose-titulo{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.choose-imagem{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.voltar-choose{
+    display: flex;
+    margin-top: 15px;
+}
+

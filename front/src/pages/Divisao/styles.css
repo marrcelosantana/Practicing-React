@@ -1,0 +1,30 @@
+.div-container{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-size: cover;
+    font-family: rajdhani;
+    background-image: url('../../assets/bgprincipal.jpg');
+}
+
+.div-box{
+    padding: 40px;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    border-top: 10px solid darkblue;
+    border-bottom: 10px solid rgb(247,71,90);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.titulo-div{
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
