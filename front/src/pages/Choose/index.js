@@ -39,7 +39,7 @@ export default function Choose(){
                 </Link>
                 
                 <Link className = "gotobask" to = "/bask">
-                    <button className = "choose-button">BASKHARA</button>
+                    <button className = "choose-button">BHASKARA</button>
                 </Link>
 
                 <div className="voltar-choose">

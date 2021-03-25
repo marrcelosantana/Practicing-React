@@ -18,9 +18,9 @@ export default function Baskhara(){
         var b = Number(tb2.value);
         var c = Number(tb3.value);
 
-        var delta = ((b * b) - 4 * a * c);
-        var raiz1 = (((-b) + (Math.sqrt(delta))) / (2 * a));
-        var raiz2 = (((-b) - (Math.sqrt(delta))) / (2 * a));
+        var delta = ((b * b) - (4 * a * c));
+        var raiz1 = ((-b + (Math.sqrt(delta))) / (2 * a));
+        var raiz2 = ((-b - (Math.sqrt(delta))) / (2 * a));
 
         res.innerHTML = `O valor do <strong>DELTA</strong> é <strong>${ delta }</strong>`;
 
@@ -28,8 +28,8 @@ export default function Baskhara(){
             res1.innerHTML = 'Não existe primeira raíz!';
             res2.innerHTML = 'Não existe segunda raíz!';
         }else{
-            res1.innerHTML = `O valor da primeira raíz é <strong>${ Math.round(raiz1) }</strong>!`;
-            res2.innerHTML = `O valor da segunda raíz é <strong>${ Math.round(raiz2) }</strong>!`;
+            res1.innerHTML = `O valor da primeira raíz é <strong>${ raiz1.toFixed(1) }</strong>!`;
+            res2.innerHTML = `O valor da segunda raíz é <strong>${ raiz2.toFixed(1) }</strong>!`;
         }
     }
 
@@ -37,7 +37,7 @@ export default function Baskhara(){
     return(
         <div className="bask-container">
             <div className="bask-box">
-                <h1 className="titulo-bask">BASKHARA</h1>
+                <h1 className="titulo-bask">BHASKARA</h1>
                 <div className="imagem"> <img src= { BaskImg } alt="Baskhara"/> </div>
 
                 <span><strong>A:</strong></span>
